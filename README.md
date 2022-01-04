@@ -1,3 +1,3 @@
 # Kokoa clone
 
-css is fuckoing crazy
+css and html are fuckoing crazy
