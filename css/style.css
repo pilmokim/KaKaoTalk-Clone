@@ -1,28 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "reset.css";
+@import "variables.css";
+@import "status-bar.css";
 body {
   font-family: "Roboto", sans-serif;
 }
-.status-bar__column {
-  width: 33%;
-}
-.status-bar {
+.welcome-header {
+  margin: 62px 0px;
   display: flex;
-  justify-content: space-between;
-}
-.status-bar__column:first-child span {
-  margin-right: 4px;
-}
-
-.status-bar__column:nth-child(2) {
-  display: flex;
-  justify-content: center;
-}
-.status-bar__column:last-child {
-  display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
 }
-.status-bar__column .fa-battery-full {
-  margin: 0px 4px;
+.welome-header__title {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.68;
+}
+.log-in {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.log-in input {
+  border: none;
+  padding: 13px 0px;
+  font-size: 16px;
+  margin-bottom: 26px;
+}
+.log-in input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  transition: border-color 0.3s ease-in-out;
+}
+.log-in::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+.log-in input:focus {
+  border-color: var(--yellow);
+}
+.log-in input[type="submit"] {
+  background-color: var(--yellow);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 16px 0px;
+}
+.log-in a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
 }
