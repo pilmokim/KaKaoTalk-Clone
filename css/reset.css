@@ -125,3 +125,10 @@ table {
 input:focus {
   outline: none;
 }
+a {
+  color: inherit;
+  border: none;
+}
+span {
+  text-decoration: none;
+}
