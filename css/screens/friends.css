@@ -11,3 +11,20 @@
   padding: 0px 5px;
   color: #d5d5d5;
 }
+
+.friends-screen {
+  padding: var(--horizontal-space);
+}
+.friend-screen-channel {
+  border-top: 1px solid #d5d5d5;
+  margin-top: 10px;
+}
+.friend-screen-channel-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.channel-count {
+  color: rgba(0, 0, 0, 0.5);
+}
