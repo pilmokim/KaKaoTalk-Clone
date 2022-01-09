@@ -1,10 +1,16 @@
+body {
+  height: 1000vh;
+}
 .status-bar__column {
   width: 33%;
 }
 .status-bar {
   display: flex;
   justify-content: space-between;
-  padding: 5px 3px;
+  padding: 5px 7px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
 }
 .status-bar__column:first-child span {
   margin-right: 4px;
