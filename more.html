@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends</title>
+    <title>More</title>
   </head>
   <body>
     <div>
@@ -24,49 +24,80 @@
         </div>
     </div>
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
+            <span>
+                <i class="fas fa-cog fa-lg"></i>
+                <span class="red_dot screen-header__dot"></span>
+            </span>
         </div>
     </header>
-    <a id="friend-display-link">
-        <i class="fas fa-info-circle"></i> 
-        Friend's Name Display
-        <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-    <main class="friends-screen fr">
-      <div class="user-component">
+    <main class="main-screen">
+    <div class="user-component">
         <div class="user-component__column">
           <img class="user-component__large-picture" src="https://url.kr/rnk8jd">
           <div class="user-component__text">
             <h3 class="user-component__title">Pilmo</h3>
-            <!-- <h6 class="user-component__subtitle">hi i'm pilmo</h6> -->
+            <h6 class="user-component__subtitle">
+                +81 010 9906 8481 
+                <span> !</span>
+            </h6>
+            
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+            <i class="far fa-comment-alt fa-2x"></i>
+        </div>
       </div>
-      <div class="friend-screen-channel">
-        <header class="friend-screen-channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </header>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img class="user-component__picture" src="https://url.kr/rnk8jd">
-            <div class="user-component__text">
-              <h3 class="user-component__title user-component__title-not-bold">Channel</h3>
+      <div class="icon-rows">
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="far fa-calendar"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fab fa-google-drive"></i>
+                <span>Talk Drive</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-surprise"></i> 
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-brush"></i>
+                <span>Themes</span>
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-row__icon account">
+                <i class="fas fa-file-invoice-dollar"></i>
+                <span>Account</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-comments"></i>
+                <span>Open Chat</span>
+            </div>
+        </div>
+      </div>
+      <div class="more-suggestion">
+          <div class="more-suggestion__header">
+              <h4>Suggestions</h4>
+          </div>
+          <div class="more-suggestion__icons">
+            <div class="more-suggestion__icons-icon">
+                <i class="fas fa-quote-right"></i>
+                <span>KaKao Story</span>
+            </div>
+            <div class="more-suggestion__icons-icon">
+                <i class="fas fa-quote-right"></i>
+                <span>KaKao Story</span>
             </div>
           </div>
-          <div class="user-component__column channel-count">
-            <span>2</span>
-            <i class="fas fa-chevron-right fa-xs"></i>
-          </div>
-        </div>
       </div>
+    </div>
     </main>
-    
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">

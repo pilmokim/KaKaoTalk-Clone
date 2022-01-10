@@ -4,6 +4,7 @@
   align-items: center;
   background-color: #fafafa;
   padding: 15px 0px;
+  padding-top: 100px;
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -14,9 +15,10 @@
 
 .friends-screen {
   padding: var(--horizontal-space);
+  padding-top: 100px;
 }
 .friend-screen-channel {
-  border-top: 1px solid #d5d5d5;
+  border-top: var(--bottom-border);
   margin-top: 10px;
 }
 .friend-screen-channel-header {
@@ -27,4 +29,7 @@
 }
 .channel-count {
   color: rgba(0, 0, 0, 0.5);
+}
+.fr {
+  padding-top: 10px;
 }

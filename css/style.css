@@ -8,10 +8,17 @@
 @import "nav_bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   font-family: "Roboto", sans-serif;
+}
+.main-screen {
+  padding: var(--horizontal-space);
+  padding-top: 90px;
 }

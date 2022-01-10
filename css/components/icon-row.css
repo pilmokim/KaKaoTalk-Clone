@@ -1,0 +1,47 @@
+.icon-row:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-row:nth-child(2) {
+  display: flex;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-row__icon i {
+  font-size: 30px;
+  margin: 25px 0px;
+}
+.account {
+  margin-right: 81px;
+}
+.more-suggestion {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: var(--bottom-border);
+}
+.more-suggestion__icons {
+  margin-top: 20px;
+  display: flex;
+}
+.more-suggestion__icons-icon {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.more-suggestion__icons-icon i {
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  background-color: var(--yellow);
+  color: white;
+  border-radius: 30%;
+}
