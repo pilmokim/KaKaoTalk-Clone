@@ -27,6 +27,7 @@
   margin-top: 20px;
   display: flex;
 }
+
 .more-suggestion__icons-icon {
   margin-right: 15px;
   display: flex;
@@ -34,6 +35,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .more-suggestion__icons-icon i {
   margin-bottom: 4px;
   display: flex;
@@ -44,4 +46,7 @@
   background-color: var(--yellow);
   color: white;
   border-radius: 30%;
+}
+.more-suggestion__header {
+  display: flex;
 }
