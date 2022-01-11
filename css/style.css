@@ -17,6 +17,7 @@
 @import "screens/find.css";
 @import "screens/settings.css";
 @import "screens/chat-room.css";
+@import "screens/no-mobile.css";
 
 body {
   font-family: "Roboto", sans-serif;

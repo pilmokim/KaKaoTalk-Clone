@@ -1,0 +1,20 @@
+#no-mobile {
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  /* flex-wrap: nowrap; */
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--yellow);
+  font-size: 20px;
+  font-weight: bold;
+  top: 0;
+}
+
+@media screen and (orientation: portrait) {
+  #no-mobile {
+    display: none;
+  }
+}
