@@ -12,6 +12,9 @@ body {
   width: 100%;
   box-sizing: border-box;
 }
+.status-bar .index {
+  position: static;
+}
 .status-bar__column:first-child span {
   margin-right: 4px;
 }
